@@ -1,0 +1,26 @@
+package ciclosFor;
+
+public class ejercicio3 {
+
+	public static void main(String[] args) {
+		// Definir si un número establecido es Numero Perfecto ó no
+		int numDado = 6, suma = 0;
+		for(int div = 1; div <= 6; div++)
+		{
+			if(numDado % div == 0)
+			{
+				suma = suma + div;
+				if(suma == numDado)
+				{
+					System.out.println(+numDado+" es perfecto!");
+				}
+				if(suma != numDado)
+				{
+					System.out.println(+numDado+" no es perfecto!");
+				}
+			}
+		}
+
+	}
+
+}

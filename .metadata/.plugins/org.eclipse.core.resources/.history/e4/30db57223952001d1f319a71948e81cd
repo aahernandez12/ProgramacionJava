@@ -1,0 +1,29 @@
+package matrices;
+
+public class matriz5x4Aleat {
+
+	public static void main(String[] args) {
+		// Matriz 5 -filas- x4 -columnas- Aleatoria, mostrarla
+		
+		int numeros[][] = new int[5][4];
+		
+		//Generación de la matriz con numero aleatorios
+		for(int i = 0; i < 5 ; i++)
+		{
+			for(int j = 0; j < 4; j++)
+			{
+				numeros[i][j] = (int) Math.ceil(Math.random()*100);
+			}
+		}
+		
+		//Presentación en pantalla de la matriz
+		for(int i = 0; i < 5 ; i++)
+		{
+			for(int j = 0; j < 4; j++)
+				{
+					System.out.print(numeros[i][j] + "  ");
+				}
+		System.out.println();
+		}
+	}
+}

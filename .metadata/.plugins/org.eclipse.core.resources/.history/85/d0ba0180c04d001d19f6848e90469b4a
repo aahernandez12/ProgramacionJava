@@ -1,0 +1,24 @@
+package cicloWhile;
+
+public class ejercicio3 {
+
+	public static void main(String[] args) {
+		// Contar cuantas vocales hay en un párrafo dado
+		
+		String texto = "Porta fames dis aenean platea neque semper? Conubia eleifend commodo maecenas risus risus pellentesque. Eros iaculis duis posuere integer purus euismod consequat. Vel congue curabitur penatibus ac mus nisi iaculis; scelerisque feugiat blandit molestie euismod. Tinci risus sociis nostra fermentum laoreet aliquet aptent est. Platea non proin aliquet scelerisque nam maecenas elit cum.";
+		
+		int contadorVocal = 0, letrasTexto = texto.length()-1, contLetras = 0;
+		
+		System.out.println(letrasTExto);
+		while(letrasTexto >= 0)
+		{
+			if(texto.equals((texto.charAt(letrasTexto)) == ('a' || 'e' || 'i' || 'o' || 'u'))
+			{
+				contadorVocal = contadorVocal + 1;
+			}
+			letrasTexto--;
+		}
+		System.out.println("El Texto contiene "+contadorVocal+" vocales.");
+	}
+
+}

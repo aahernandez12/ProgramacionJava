@@ -1,0 +1,30 @@
+package ciclosFor;
+
+public class ejercicio4 {
+
+	public static void main(String[] args) {
+		// Sumatoria  de las iteraciones dede 0 hasta un número definido y al resultado de la suma realizar otras operaciones
+		int numDefinido = 3, sumaOperandos = 0;
+		
+		for(int conta = 0; conta <= numDefinido; conta++)
+		{
+			sumaOperandos = sumaOperandos + conta;
+		}
+		System.out.println("La suma de las iteraciones es: "+sumaOperandos);
+		System.out.println("La raíz cuadrada de "+sumaOperandos+" es: "+Math.sqrt(sumaOperandos));
+		
+		double numAleat = Math.round((Math.random()*100));
+		for(int temp = 0; temp <= sumaOperandos; temp++)
+		{
+			if (numAleat <= sumaOperandos)
+			{
+				System.out.println("Un número aleatorio entre 1 y "+sumaOperandos+" es: "+numAleat);
+			}
+			else temp = sumaOperandos;
+		}
+		
+			
+		
+		System.out.println(sumaOperandos);
+	}
+}

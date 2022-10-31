@@ -1,0 +1,17 @@
+package ciclosFor;
+
+public class ejercicio4 {
+
+	public static void main(String[] args) {
+		// Sumatoria  de las iteraciones dede 0 hasta un numero definido y al resultado de la suma realizar otras operaciones
+		int numDefinido = 8, sumaOperandos = 0;
+		
+		for(int conta = 0; conta = 8; conta++)
+		{
+			sumaOperandos = sumaOperandos + conta;
+		}
+		
+		System.out.println(sumaOperandos);
+		
+	}
+}

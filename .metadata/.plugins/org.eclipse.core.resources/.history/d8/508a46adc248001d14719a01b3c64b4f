@@ -1,0 +1,20 @@
+package ciclosFor;
+
+public class ejercicio3a {
+
+	public static void main(String[] args) {
+		// Definir si un número establecido es Número Perfecto ó no
+		int num = 6, sumaDivisores = 0;
+		
+		for(int numGuia = 1; numGuia <= num; numGuia++ )
+		{
+			if( num % numGuia == 0)
+			{
+				sumaDivisores = numGuia + sumaDivisores;
+			}
+		}
+		
+		System.out.println(sumaDivisores);
+	}
+
+}

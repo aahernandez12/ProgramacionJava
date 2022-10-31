@@ -1,0 +1,17 @@
+package principal;
+
+import secundario.Contador;
+
+public class OtraClase {
+
+	public static void main(String[] args) {
+	 
+		
+		
+		
+		Contador contador1 = new Contador();
+	
+
+	}
+
+}

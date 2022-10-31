@@ -1,0 +1,20 @@
+package ClasesVariables;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		String nombrePersona = "Alfredo Hernández López";
+		double x = 5.23;
+		final double valorDolar = 20.03;
+		double valorPi = 3.1415926;
+		double euler = Math.E;
+		
+		System.out.println(nombrePersona);
+		System.out.println(x);
+		System.out.println(valorDolar);
+		System.out.println(valorPi);
+		System.out.println(euler);
+		
+		
+	}
+}

@@ -1,0 +1,23 @@
+package vectores;
+
+public class ejercicio3 {
+
+	public static void main(String[] args) {
+		// Dada una palabra, que la divida en sus carácteres y los almacene en un vector del mismo tamaño que la palabra
+		
+		String palabra = "Colombia";
+		//int numCaracteres = palabra.length();
+		//String caracter;
+		int vectorCaract [] = {};
+		String palAux = "";
+		
+		for(int i = 0; i < palabra.length(); i++)
+			{
+				String aux = palabra.substring(i,i+1);
+				palAux = palAux + aux;
+			}
+		vectorCaract [] = {palAux};
+		
+	}
+
+}

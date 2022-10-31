@@ -1,0 +1,27 @@
+package matrices;
+
+public class matriz5x4Aleat {
+
+	public static void main(String[] args) {
+		// Matriz 5x4 Aleatoria, mostrarla
+		
+		int numeros[][] = new int[5][4];
+		
+		for(int i = 0; i < 5 ; i++)
+		{
+			for(int j = 0; j < 5; j++)
+			{
+				numeros[i][j] = (int) Math.ceil(Math.random()*100);
+			}
+		}
+		
+		for(int i = 0; i < 5 ; i++)
+		{
+			for(int j = 0; j < 4; j++)
+				{
+					System.out.print(numeros[i][j] + " ");
+				}
+		System.out.println();
+		}
+	}
+}

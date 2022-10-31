@@ -1,0 +1,14 @@
+package condicionalesComplejas;
+
+public class ejercicio1 {
+
+	public static void main(String[] args) {
+		int edad = 56;
+		if (edad == 0 && edad <= 5)
+		{
+			System.out.println(edad+"Pertenece a Intante");
+		}
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package operadorTernario;
+import java.util.Scanner;
+
+public class ParImpar {
+
+	public static void main(String[] args) {
+		// Determinar si un numero INGRESADO es par ó impar
+		System.out.println("Determinar si un número ingresado es par ó impar");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("A continuación ingrese un número:");
+		int num = sc.nextInt();
+		
+		System.out.println(num +(num >= 0? " es positivo" : " es negativo"));
+		System.out.println(num + (num % 2 == 0? " es par" : " es impar"));
+		System.out.println(num + (num % 5 == 0? " es multiplo de 5" : " no es multiplo de 5"));
+		System.out.println(num + (num % 10 == 0? " es multiplo de 10" : " no es multiplo de 10"));
+		System.out.println(num +(num < 100? " es menor que 100" : " no es menor que 100"));
+		sc.close();//cerrar escanner
+	}
+
+}

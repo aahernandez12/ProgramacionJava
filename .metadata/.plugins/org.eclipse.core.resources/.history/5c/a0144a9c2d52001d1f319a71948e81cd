@@ -1,0 +1,30 @@
+package matrices;
+
+public class edades3x3 {
+
+	public static void main(String[] args) {
+		// Matriz 3x3 edades
+		
+		int edades [][] = new int [3][3];
+		edades[0][0] = 19;
+		edades[0][1] = 18;
+		edades[0][2] = 16;
+		edades[1][0] = 15;
+		edades[1][1] = 14;
+		edades[1][2] = 12;
+		edades[2][0] = 12;
+		edades[2][1] = 11;
+		edades[2][2] = 18;
+		
+		for (int i = 0; i < edades.length; i++)
+		{
+			for(int j = 0; j < edades.length; j++)
+			{
+				System.out.print(edades[i][j] + "");
+			}
+			System.out.println("");
+		}
+		
+		
+	}
+}

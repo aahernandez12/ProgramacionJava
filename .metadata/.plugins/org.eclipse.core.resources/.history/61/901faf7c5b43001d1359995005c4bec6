@@ -1,0 +1,29 @@
+package ClasesVariables;
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		// Ejercicio 2 Politécnico de Colombia
+		int a = 8;
+		int b = 'A';
+		String c = "Colombia";
+		char d = 'A';
+		float e = 74548F;
+		int numero1;
+		String nombrePersona;
+		int edad;
+		int altura = Double.parseDouble(altura);
+		int double = 96;
+		a = 98;
+		int x = a;
+		int y = 25;
+		Strig g = y;
+		
+		
+		Sistem.out.println(d);
+		
+		
+		
+	}
+
+}

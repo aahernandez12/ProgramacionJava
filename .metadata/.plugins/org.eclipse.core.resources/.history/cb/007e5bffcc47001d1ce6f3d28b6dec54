@@ -1,0 +1,24 @@
+package condicionalesComplejas;
+
+public class ejercicio3b {
+
+	public static void main(String[] args) {
+		int num1 = 65, num2 = 12, num3 = 98;
+		if (num1 < num2)
+
+		{
+			if (num2 < num3)
+		{
+			System.out.println(num3+"es mayor");
+		}
+		System.out.println(num2+"es mayor");
+		}
+		else (num1 < num3);
+		{
+			System.out.println(num3+" es mayor");
+		}
+		System.out.println(num1+" es mayor");
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package vectores;
+
+public class temp {
+
+	public static void main(String[] args) {
+		
+		String palabra = "Colombia";
+		int i = 0;
+		
+		String aux = palabra.substring(i,i+1);
+		System.out.println(aux);
+
+	}
+
+}

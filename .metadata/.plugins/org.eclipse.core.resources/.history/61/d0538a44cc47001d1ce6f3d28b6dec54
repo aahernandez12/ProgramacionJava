@@ -1,0 +1,20 @@
+package condicionalesComplejas;
+
+public class ejercicio3b {
+
+	public static void main(String[] args) {
+		int num1 = 65, num2 = 12, num3 = 98;
+		if (num1 < num2)
+		{
+			
+		}
+		else
+
+
+		
+		
+		
+
+	}
+
+}

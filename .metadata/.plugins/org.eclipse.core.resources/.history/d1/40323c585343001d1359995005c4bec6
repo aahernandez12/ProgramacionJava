@@ -1,0 +1,11 @@
+package ClasesVariables;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		String nombrePersona = "Alfredo Hernández López";
+		System.out.println(nombrePersona);
+		
+		
+	}
+}

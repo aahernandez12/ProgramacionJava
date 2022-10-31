@@ -1,0 +1,15 @@
+package ClasesVariables;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		String nombrePersona = "Alfredo Hernández López";
+		double x = 5.23;
+		
+		
+		
+		System.out.println(nombrePersona);
+		System.out.println(x);
+		
+	}
+}
